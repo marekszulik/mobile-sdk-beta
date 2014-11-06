@@ -103,7 +103,7 @@
       {
          "qualifiedName": "com.sponsorpay.mediation.FacebookMediationAdapter",
          "versions": [
-            "1.0.0"
+            "1.0.1"
          ]
       }
    ]
