@@ -121,6 +121,13 @@
                 "distributorId": "2747612",
                 "propertyId": "1111"
             }
+        },
+        {
+            "name": "FacebookAudienceNetwork",
+            "settings": {
+                "placementId": "619633174799370_631261033636584",
+                "testDeviceHash": ["8a0f1a0aae1b86485eaeba6803d284bf"]
+            }
         }
     ]
 }
