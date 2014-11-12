@@ -1,6 +1,5 @@
 //
 //  SPFacebookInterstitialAdapter.m
-//  SponsorPayTestApp
 //
 //  Copyright (c) 2014 SponsorPay. All rights reserved.
 //
@@ -37,7 +36,12 @@ static NSString *const SPFacebookPlacementId = @"SPFacebookInterstitialPlacement
 
 - (BOOL)startAdapterWithDict:(NSDictionary *)dict
 {
-    self.placementId = dict[SPFacebookPlacementId];
+    id facebookPlacementId = dict[SPFacebookPlacementId];
+    if (![facebookPlacementId isKindOfClass:[NSString class]] || ![facebookPlacementId length]) {
+        SPLogError(@"Couldn't start SPFacebookInterstitialAdapter: invalid or empty SPFacebookPlacementId.", self.networkName);
+        return NO;
+    }
+    self.placementId = facebookPlacementId;
     [self loadInterstital];
     return YES;
 }
@@ -74,7 +78,7 @@ static NSString *const SPFacebookPlacementId = @"SPFacebookInterstitialPlacement
 - (void)interstitialAd:(FBInterstitialAd *)interstitialAd didFailWithError:(NSError *)error
 {
     if(kSPFacebookWrongPlacementIdErrorCode == error.code){
-        SPLogError(@" %@ error. Invalid SPFacebookPlacementId.", self.networkName);
+        SPLogError(@"%@ error. Invalid SPFacebookPlacementId.", self.networkName);
     }
     
     if(kSPFacebookNoAdsErrorCode == error.code){
