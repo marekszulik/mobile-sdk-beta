@@ -1,11 +1,8 @@
 //
 //  SPFacebookNetwork.m
-//  SponsorPayTestApp
 //
 //  Copyright (c) 2014 SponsorPay. All rights reserved.
 //
-
-// Adapter versioning - Remember to update the header
 
 #import "SPFacebookNetwork.h"
 #import "SPFacebookInterstitialAdapter.h"
@@ -16,7 +13,7 @@
 
 static const NSInteger SPFacebookVersionMajor = 2;
 static const NSInteger SPFacebookVersionMinor = 0;
-static const NSInteger SPFacebookVersionPatch = 0;
+static const NSInteger SPFacebookVersionPatch = 1;
 
 static NSString *const SPFacebookTestDevices = @"SPFacebookTestDevices";
 
@@ -56,8 +53,8 @@ static NSString *const SPFacebookTestDevices = @"SPFacebookTestDevices";
 {
     NSArray *testDevices = data[SPFacebookTestDevices];
 
-    if (![SPSystemVersionChecker runningOniOS5OrNewer]) {
-        SPLogError(@"Facebook only supports iOS 5 or later");
+    if (![SPSystemVersionChecker runningOniOS7OrNewer]) {
+        SPLogError(@"Facebook adapter supports only iOS 7 or higher");
         return NO;
     }
 
