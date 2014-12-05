@@ -114,6 +114,12 @@
                 "target": []
             }
         },
+	{
+		"name": "Tremor",
+		"settings": {
+		        "appIds": "487838"
+		}
+	},
         {
             "name": "HyprMX",
             "settings": {
