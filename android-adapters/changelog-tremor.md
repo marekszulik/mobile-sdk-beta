@@ -11,3 +11,4 @@ Tremor SDK: 3.8
 ####1.1.0
 
 - Added video mediation
+- Added support for Tremor SDK 3.8
