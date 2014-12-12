@@ -117,7 +117,8 @@
 	{
 		"name": "Tremor",
 		"settings": {
-		        "appIds": "487838"
+			"appId.interstitial": "487838",
+			"appId.rewarded-video": "487839"
 		}
 	},
         {
