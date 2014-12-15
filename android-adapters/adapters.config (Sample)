@@ -114,6 +114,13 @@
                 "target": []
             }
         },
+	{
+		"name": "Tremor",
+		"settings": {
+			"appId.interstitial": "487838",
+			"appId.rewarded-video": "487839"
+		}
+	},
         {
             "name": "HyprMX",
             "settings": {

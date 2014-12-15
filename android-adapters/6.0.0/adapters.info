@@ -97,7 +97,8 @@
       {
          "qualifiedName":"com.sponsorpay.mediation.TremorMediationAdapter",
          "versions":[
-            "1.0.0"
+            "1.0.0",
+            "1.1.0"
          ]
       },
       {
