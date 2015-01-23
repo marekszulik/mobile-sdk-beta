@@ -102,18 +102,6 @@
                 }
             }
         },
-        {
-            "name": "Ebuzzing",
-            "settings": {
-                "interstitial.tag": "TAG_ANDROID_SP_INT",
-                "show.close.button": true,
-                "sound.enabled": true,
-                "auto.rotation.enabled": false,
-                "back.button.enabled": false,
-                "video.considered.watched.at": "0.60",
-                "target": []
-            }
-        },
 	{
 		"name": "Tremor",
 		"settings": {
