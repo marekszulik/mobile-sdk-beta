@@ -65,13 +65,6 @@
             }
         },
         {
-            "name": "Appia",
-            "settings": {
-                "siteId": "2214",
-                "placementId": "1"
-            }
-        },
-        {
             "name": "AppLovin",
             "settings": {
                 "comment": "No info need to be provided for AppLovin in this file. Please put the SDK key into the Android Manifest"
