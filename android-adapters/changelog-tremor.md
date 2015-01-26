@@ -2,7 +2,7 @@
 
 Adapter: 1.1.0
 
-Fyber SDK: 7.0.0
+Fyber SDK: 7.0.3
 
 Tremor SDK: 3.9
 
