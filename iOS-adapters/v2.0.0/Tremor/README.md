@@ -4,7 +4,9 @@
 
 | Network | Adapter version | Third party SDK version | Fyber SDK version |
 |:----------:|:-------------:|:-----------------------:|:------------:|
-| Tremor | 2.0.0 | 3.8 | 7.0.2 |
+| Tremor | 2.0.0 | 3.9 | 7.0.3 + |
+
+**Important:** *Tremor SDK supports iOS 6 or higher.*
 
 ## Example parameters
 

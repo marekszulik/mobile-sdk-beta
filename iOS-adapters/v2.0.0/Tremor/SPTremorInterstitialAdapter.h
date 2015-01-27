@@ -14,9 +14,9 @@
 
  ## Version compatibility
 
- - Adapter version: 2.0.0
- - Fyber SDK version: 7.0.2
- - Tremor SDK version: 3.8
+ - Adapter version: 2.1.0
+ - Fyber SDK version: 7.0.3
+ - Tremor SDK version: 3.9
 
  */
 
