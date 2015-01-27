@@ -18,7 +18,7 @@ static NSString *const SPInterstitialAdapterClassName = @"SPTremorInterstitialAd
 static NSString *const SPRewardedVideoAdapterClassName = @"SPTremorRewardedVideoAdapter";
 
 static const NSInteger SPTremorVersionMajor = 2;
-static const NSInteger SPTremorVersionMinor = 0;
+static const NSInteger SPTremorVersionMinor = 1;
 static const NSInteger SPTremorVersionPatch = 0;
 
 @interface SPTremorNetwork ()
@@ -59,6 +59,11 @@ static const NSInteger SPTremorVersionPatch = 0;
 
 - (BOOL)startSDK:(NSDictionary *)data
 {
+    if (NSFoundationVersionNumber < NSFoundationVersionNumber_iOS_6_0) {
+        SPLogError(@"Could not start Tremor Provider. Tremor SDK supports only iOS 6 or higher.");
+        return NO;
+    }
+    
     NSString *interstitialAppId = data[SPTremorInterstitialAppId];
     NSString *rewardedVideoAppId = data[SPTremorRewardedVideoAppId];
 
