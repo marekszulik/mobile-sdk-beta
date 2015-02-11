@@ -6,9 +6,9 @@
 
 | Network | Adapter version | Third party SDK version | Fyber SDK version |
 |:----------:|:-------------:|:-----------------------:|:------------:|
-| Facebook | 2.0.1 | 3.20 | 7.0.0 |
+| Facebook | 2.0.1 | 3.23 | 7.0.0 + |
 
-**Important:** *The Facebook SDK for iOS versions 3.17+ supports iOS 6.x and higher. Support for iOS 5.x was dropped in version 3.17 of the SDK. We currently support iOS 7.x+ because there are some problems with Facebook SDK 3.20 on iOS 6.x.*
+**Important:** *The Facebook SDK for iOS versions 3.17+ supports iOS 6.x and higher. Support for iOS 5.x was dropped in version 3.17 of the SDK. We currently support iOS 7.x+ because there are some problems with Facebook SDK 3.20+ on iOS 6.x.*
 
 ## Example parameters
 
