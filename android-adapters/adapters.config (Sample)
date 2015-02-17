@@ -95,13 +95,13 @@
                 }
             }
         },
-	{
-		"name": "Tremor",
-		"settings": {
-			"appId.interstitial": "487838",
-			"appId.rewarded-video": "487839"
-		}
-	},
+    {
+        "name": "Tremor",
+        "settings": {
+            "appId.interstitial": "487838",
+            "appId.rewarded-video": "487839"
+        }
+    },
         {
             "name": "HyprMX",
             "settings": {
@@ -115,6 +115,27 @@
             "settings": {
                 "placementId": "691633174799379_632161033535584",
                 "testDeviceHash": ["8a0f1a0aae1b86485eaeba6803d284bf"]
+            }
+        },
+        {
+            "name": "Mediabrix",
+            "settings": {
+                "SPMediabrixGeoEnabled": false,
+                "SPMediabrixCalendarEnabled": false,
+                "SPMediabrixCameraEnabled": false,
+            	"SPMediabrixAppId": "HNoyyVikhO",
+                "SPMediabrixBaseURL": "http://mobile.mediabrix.com/v2/manifest",
+                "SPMediabrixProperty": "Fyber_Android_mobile",
+                "SPMediabrixOptInMessageEnabled": true,
+                "SPMediabrixRescueZone": "Fyber_Android_Rescue",
+                "SPMediabrixUID": "",
+                "SPMediabrixRewardText": "Reward text",
+                "SPMediabrixRewardIconURL": "http://media.pocketgamer.biz/2014/8/20886/fyber-logo-r50x50.jpg",
+                "SPMediabrixOptInButtonText": "Button text",
+                "SPMediabrixEnticeText": "Entice Text",
+                "SPMediabrixRescueTitle": "Rescue Title",
+                "SPMediabrixRescueText": "Rescue Text",
+                "SPMediabrixFacebookAppId": ""
             }
         }
     ]
