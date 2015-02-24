@@ -102,12 +102,6 @@
          "versions": [
             "1.0.1"
          ]
-      },
-      {
-        "qualifiedName": "com.sponsorpay.mediation.MediaBrixMediationAdapter",
-        "versions": [
-            "1.0.0"
-        ]
       }
    ]
 }
